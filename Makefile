@@ -1,5 +1,5 @@
 CXX = g++
-CXXFLAGS = -std=c++20 -O3 -I include
+CXXFLAGS = -std=c++20 -O3 -static -I include
 BUILD_DIR = build
 SAMPLES_DIR = samples
 SCRIPTS_DIR = scripts
